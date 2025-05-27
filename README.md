@@ -68,7 +68,8 @@ If you want to create a fresh dataset for training/testing:
 python generate_data.py
 ```
 
-This will create two files in your project directory:-
+This will create two files in your project directory:
+
 project_data_with_labels.csv – includes labels (for training)
 project_data.csv – features only (for prediction)
 
