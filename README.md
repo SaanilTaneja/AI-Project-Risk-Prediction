@@ -10,13 +10,14 @@ This project builds an AI/ML model that predicts the **risk level** (Low, Medium
 
 ```
 AI-Project-Risk-Prediction/
-├── app.py                 # Streamlit dashboard for risk prediction
-├── generate_data.py       # Script to create synthetic project data
-├── train_model.py         # Model training and evaluation
-├── project_data.csv       # Generated sample project data
-├── risk_model.pkl         # Trained ML model
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
+├── generate_data.py               # Generates synthetic data
+├── train_model.py                 # Trains the model and saves it as a .pkl
+├── app.py                         # Streamlit app for uploading and predicting
+├── requirements.txt               # Required Python libraries
+├── risk_model.pkl                 # Trained model
+├── project_data.csv               # Test data without labels (for predictions)
+├── project_data_with_labels.csv   # Data with labels (for training)
+└── README.md                      # Project documentation
 ```
 
 ---
@@ -67,7 +68,9 @@ If you want to create a fresh dataset for training/testing:
 python generate_data.py
 ```
 
-This will create a file named `project_data.csv` in your project directory.
+This will create two files in your project directory:-
+project_data_with_labels.csv – includes labels (for training)
+project_data.csv – features only (for prediction)
 
 ---
 
