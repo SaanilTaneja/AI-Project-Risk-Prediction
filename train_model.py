@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
 import joblib
 
-df = pd.read_csv("project_data.csv")
+df = pd.read_csv("project_data_with_labels.csv")
 df['Methodology'] = LabelEncoder().fit_transform(df['Methodology'])
 
 X = df.drop("Risk_Level", axis=1)
