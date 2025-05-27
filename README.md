@@ -136,7 +136,7 @@ deactivate
 
 ## 👤 Author
 
-**Your Name**  
+**Contact**  
 📧 saaniltaneja@gmail.com  
 🌐 https://www.linkedin.com/in/saaniltaneja/
 
