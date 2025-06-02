@@ -1,4 +1,4 @@
-# AI-Powered Risk Prediction Model for Successful IT Project Management
+# AI Risk Prediction for IT Project Management
 
 ## 🧠 Project Overview
 
